@@ -13,8 +13,8 @@ Sample of the Enron email dataset, consisting in 43613 emails for training, sent
 The evaluation metric used for this project is Mean Average @10 (MAP@10), which is a classification metric sensitive to the rank of predicted recipients. 
 
 ## Requirements
-+python 3
-+pandas
++ python 3
++ pandas
 ## Run the model
 
 Just run the following command:
