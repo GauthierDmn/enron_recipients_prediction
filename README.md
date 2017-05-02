@@ -15,6 +15,8 @@ The evaluation metric used for this project is Mean Average @10 (MAP@10), which 
 ## Requirements
 + python 3
 + pandas
++ sklearn
+
 ## Run the model
 
 Just run the following command:
