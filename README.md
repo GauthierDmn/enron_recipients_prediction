@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This project aims at predicting recipients for ... 10 recipients for a given email and rank them by decreasing order or relevance.
+This project aims at predicting recipients of emails. Given an email body, this code outputs 10 recipients and rank them by decreasing order or relevance. A few methods were tested including KNN, TfIdf, to compute distances between multiple texts. Finally the best approach I found was to combine both the similarity between email bodies and the frequency of emails sent to recipients.
+
+Note that using metadata such as the day/hour an email is written could improve the accuracy of this approach.
 
 ## Dataset
 
